@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    background-color: #488f22;
+}
+.card{
+    background-color: white;
+    position: relative;
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 450px;
+    margin-left: 80vb;
+    margin-top: 5vb;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#palo-top{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 80px;
+}
+#mid-card{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 80%; 
+    height: auto; 
+    font-size: 100px;
+}
+#palo-bot{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 80px;
+    height: auto;
+    transform: rotate(180deg);
+}
+.hearts{
+    color: red;
+}
+.diams {
+    color: red;
+  }
+ 
+.spades {
+    color: black;
+  }
+.clubs {
+    color: black;
+  }
+#btnClick{
+    position: absolute; 
+    left: 45%; 
+}
